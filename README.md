@@ -36,4 +36,7 @@ Further constraints:
 In case of questions / doubts: 
 - take assumptions and clearly document questions and assumptions taken 
 
+————————————————————————————————————————————————————————————————————
 
+In order to run the application, open Node.js command prompt (tested and working on version 10.15.2), cd to the src folder and type ‘node main.js ../testcases/testmap$.txt’ where $ can be 1,2,3 (3 testcases are included in the folder /testcases), or provide your own testcase.
+A spec file is provided in Jasmine and is located inside the /tests/spec folder. To execute it you need to first run ‘npm install –g jasmine’ and then cd to the spec folder and run ‘jasmine MapSpec.js’.
