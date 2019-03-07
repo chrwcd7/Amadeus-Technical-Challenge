@@ -1,6 +1,4 @@
-1) It is assumed that the input map is read from a file of the form like the one provided, "testmap.txt", 
-   where each line contains the key and its respective value, separated with a space.
-   The filename is given as a command-line argument to the program.
+1) It is assumed that the input map is read from a file of the form like the ones provided where each line contains the key and its respective value, separated with a space. The filename is given as a command-line argument to the program.
 
 2) It is assumed that a value cannot reference multiple other keys, for example "foo${key2}bar${key3}" is not a valid value.
 
@@ -16,5 +14,4 @@
     "key2": "value1value2"
     "key3": "value3value1value2"
 
-
-
+4) It is assumed that values can reference keys after them according to map order, so provision for multiple map iterations has been implemented in order to take care of this case.
